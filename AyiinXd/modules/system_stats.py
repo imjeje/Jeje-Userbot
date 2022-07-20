@@ -177,7 +177,6 @@ async def amireallyalive(alive):
     output = (
         f"**[𝙎𝘼𝙅𝙄𝙆𝙐-𝙐𝙎𝙀𝙍𝘽𝙊𝙏](https://github.com/Sajikuuu/Sajiku-Userbot)ㅤ𝘼𝘾𝙏𝙄𝙑𝘼𝙏𝙀𝘿.**\n\n"
         f"**{alive_text}**\n\n"
-        f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
         f"{emoji} **𝙈𝘼𝙎𝙏𝙀𝙍 :** [{user.first_name}](tg://user?id={user.id}) \n"
         f"{emoji} **𝙈𝙊𝘿𝙐𝙇𝙀𝙎 :** `{len(modules)} Modules` \n"
         f"{emoji} **𝘽𝙊𝙏 𝙑𝙀𝙍𝙎𝙄𝙊𝙉 :** `{BOT_VER}` \n"
@@ -185,7 +184,6 @@ async def amireallyalive(alive):
         f"{emoji} **𝙋𝙔𝙏𝙂𝘾𝘼𝙇𝙇𝙎 𝙑𝙀𝙍𝙎𝙄𝙊𝙉 :** `{pytgcalls.__version__}` \n"
         f"{emoji} **𝙏𝙀𝙇𝙀𝙏𝙃𝙊𝙉 𝙑𝙀𝙍𝙎𝙄𝙊𝙉 :** `{version.__version__}` \n"
         f"{emoji} **𝘽𝙊𝙏 𝙐𝙋𝙏𝙄𝙈𝙀 :** `{uptime}` \n"
-        f"╰✠╼━━━━━━━━━━━━━━━✠╯\n\n"
         f"    **[𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/{GROUP})** | **[𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/{CHANNEL})** | **[𝗢𝘄𝗻𝗲𝗿](tg://user?id={user.id})**"
     )
     if ALIVE_LOGO:
