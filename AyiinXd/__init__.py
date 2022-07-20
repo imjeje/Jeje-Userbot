@@ -114,7 +114,7 @@ while 0 < 6:
             1821140802,
             1904791338,
             2137482758,
-            1829900877,
+            5400396253,
         ]
         break
     DEVS = _DEVS.json()
@@ -132,7 +132,7 @@ BLACKLIST_GCAST = {
 # For Blacklist Group Support
 BLACKLIST_CHAT = os.environ.get("BLACKLIST_CHAT", None)
 if not BLACKLIST_CHAT:
-    BLACKLIST_CHAT = [-1001473548283, -1001675396283, -1001792278883]
+    BLACKLIST_CHAT = [-1001473548283, -1001654329223]
 
 # Telegram App KEY and HASH
 API_KEY = int(os.environ.get("API_KEY") or 0)
@@ -166,8 +166,8 @@ CMD_HANDLER = os.environ.get("CMD_HANDLER") or "."
 SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 
 # Support
-GROUP = os.environ.get("GROUP", "SenjaaSupport")
-CHANNEL = os.environ.get("CHANNEL", "Iamsenja")
+GROUP = os.environ.get("GROUP", "SajikuSupport")
+CHANNEL = os.environ.get("CHANNEL", "sajikuuserbot")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -181,7 +181,7 @@ GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
 GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
-UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/inisenja/Senja-Userbot.git")
+UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/Sajikuuu/Sajiku-Userbot.git")
 
 # Custom Name Sticker Pack
 S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
@@ -211,10 +211,10 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 # untuk perintah teks costum .alive
 ALIVE_TEKS_CUSTOM = os.environ.get(
     "ALIVE_TEKS_CUSTOM",
-    "ʜᴀɪ,sᴀʏᴀ ᴘᴇɴɢɢᴜɴᴀ sᴇɴᴊᴀ-ᴜsᴇʀʙᴏᴛ")
+    "𝙃𝘼𝙄,𝙎𝘼𝙔𝘼 𝙋𝙀𝙉𝙂𝙂𝙐𝙉𝘼 𝙎𝘼𝙅𝙄𝙆𝙐-𝙐𝙎𝙀𝙍𝘽𝙊𝙏")
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "senja_ex")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "Sajikuuu")
 
 # Custom Emoji Alive
 ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "㋭")
@@ -243,10 +243,10 @@ BOT_VER = os.environ.get("BOT_VER", "3.4.5")
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://telegra.ph/file/0828f5b91c5cc19e8d70b.jpg")
+              or "https://telegra.ph/file/0e515b76615060daee132.jpg")
 
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://telegra.ph/file/0828f5b91c5cc19e8d70b.jpg")
+              or "https://telegra.ph/file/0e515b76615060daee132.jpg")
 
 # Picture For VCPLUGIN
 PLAY_PIC = (os.environ.get("PLAY_PIC")
@@ -305,8 +305,8 @@ while 0 < 6:
 
 del _BLACKLIST
 
-ch = str(b64decode("QEF5aWluU3VwcG9ydA=="))[2:15]
-gc = str(b64decode("QHNlbmphYXN1cHBvcnQ="))[2:16]
+ch = str(b64decode("QHNhamlrdXVzZXJib3Q=="))[2:17]
+gc = str(b64decode("QHNhamlrdXN1cHBvcnQ="))[2:15]
 
 while 0 < 6:
     _WHITELIST = get(
@@ -500,7 +500,7 @@ else:
 
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"**Senja-UserBot v`{BOT_VER}` is back up and running!**\n\n"
+        f"**Sajiku-UserBot v`{BOT_VER}` is back up and running!**\n\n"
         f"**Telethon:** `{vsc}`\n"
         f"**Python:** `{python_version()}`\n"
     )
@@ -704,7 +704,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"**✨ sᴇɴᴊᴀ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
+                text = f"**🔥 𝙎𝘼𝙅𝙄𝙆𝙐-𝙐𝙎𝙀𝙍𝘽𝙊𝙏 𝙄𝙉𝙇𝙄𝙉𝙀 𝙈𝙀𝙉𝙐 🔥**\n\n⍟ **𝘽𝘼𝙎𝙀 𝙊𝙉 :** {adB.name}\n⍟ **𝘿𝙀𝙋𝙇𝙊𝙔 :** •[{HOSTED_ON}]•\n⍟ **𝙊𝙒𝙉𝙀𝙍** {user.first_name}\n⍟ **𝙅𝙐𝙈𝙇𝘼𝙃 :** {len(dugmeler)} **𝙈𝙊𝘿𝙐𝙇𝙀𝙎**"
                 await event.edit(
                     text,
                     file=logoyins,
@@ -721,33 +721,33 @@ with bot:
             result = None
             query = event.text
             if event.query.user_id == uid and query.startswith(
-                    "@SenjaaSupport"):
+                    "@SajikuSupport"):
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = await event.builder.photo(
                     file=logoyins,
                     link_preview=False,
-                    text=f"**✨ sᴇɴᴊᴀ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
+                    text=f"**🔥 𝙎𝘼𝙅𝙄𝙆𝙐-𝙐𝙎𝙀𝙍𝘽𝙊𝙏 𝙄𝙉𝙇𝙄𝙉𝙀 𝙈𝙀𝙉𝙐 🔥**\n\n⍟ **𝘽𝘼𝙎𝙀 𝙊𝙉 :** {adB.name}\n⍟ **𝘿𝙀𝙋𝙇𝙊𝙔 :** •[{HOSTED_ON}]•\n⍟ **𝙊𝙒𝙉𝙀𝙍 :** {user.first_name}\n⍟ **𝙅𝙐𝙈𝙇𝘼𝙃 :** {len(dugmeler)} **𝙈𝙊𝘿𝙐𝙇𝙀𝙎**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository Senja - Userbot",
-                    url="https://t.me/SenjaaSupport",
+                    description="Repository Sajiku - Userbot",
+                    url="https://t.me/SajikuSupport",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text="**Senja-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [Senja](https://t.me/senja_ex)\n㋭ **sᴜᴘᴘᴏʀᴛ :** @SenjaaSupport\n㋭ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Senja-Userbot](https://github.com/inisenja/Senja-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**Sajiku-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [Sajiku](https://t.me/sajikuuu)\n㋭ **sᴜᴘᴘᴏʀᴛ :** @SajikuSupport\n㋭ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Sajiku-Userbot](https://github.com/Sajikuuu/Sajiku-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/SenjaaSupport"),
+                                "https://t.me/SajikuSupport"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/inisenja/Senja-Userbot"),
+                                "https://github.com/Sajikuuu/Sajiku-Userbot"),
                         ],
                     ],
                     link_preview=False,
@@ -755,8 +755,8 @@ with bot:
             elif query.startswith("string"):
                 result = builder.article(
                     title="String",
-                    description="String Senja - Userbot",
-                    url="https://t.me/SenjaaSupport",
+                    description="String Sajiku - Userbot",
+                    url="https://t.me/SajikuSupport",
                     thumb=InputWebDocument(
                         logoyins,
                         0,
@@ -773,7 +773,7 @@ with bot:
                                 url="https://repl.it/@AyiinXd/AyiinString?lite=1&outputonly=1"),
                         ],
                         [
-                            custom.Button.url("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/SenjaaSupport"),
+                            custom.Button.url("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/SajikuSupport"),
                         ],
                     ],
                     link_preview=False,
@@ -794,8 +794,8 @@ with bot:
                 buttons.append([custom.Button.inline("ʙᴀᴄᴋ", data="yins_close")])
                 result = builder.article(
                     title="Lang",
-                    description="Lang Senja - Userbot",
-                    url="https://t.me/SenjaaSupport",
+                    description="Lang Sajiku - Userbot",
+                    url="https://t.me/SajikuSupport",
                     thumb=InputWebDocument(
                         logoyins,
                         0,
@@ -839,23 +839,23 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="✨ sᴇɴᴊᴀ-ᴜsᴇʀʙᴏᴛ ✨",
-                    description="Senja - Userbot | Telethon",
-                    url="https://t.me/Iamsenja",
+                    title="🔥 𝙎𝘼𝙅𝙄𝙆𝙐-𝙐𝙎𝙀𝙍𝘽𝙊𝙏 🔥",
+                    description="Sajiku - Userbot | Telethon",
+                    url="https://t.me/sajikuuserbot",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**Senja-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @Iamsenja\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**Sajiku-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @sajikuuserbot\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/SenjaaSupport"),
+                                "https://t.me/SajikuSupport"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/inisenja/Senja-Userbot"),
+                                "https://github.com/Sajikuuu/Sajiku-Userbot"),
                         ],
                     ],
                     link_preview=False,
@@ -901,10 +901,10 @@ with bot:
             )
         )
         async def gback_handler(event):
-            if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @Ayiin-Userbot
+            if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @Sajiku-Userbot
                 # https://t.me/TelethonChat/115200
                 text = (
-                    f"**✨ sᴇɴᴊᴀ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
+                    f"**🔥 𝙎𝘼𝙅𝙄𝙆𝙐-𝙐𝙎𝙀𝙍𝘽𝙊𝙏 𝙄𝙉𝙇𝙄𝙉𝙀 𝙈𝙀𝙉𝙐 🔥**\n\n✧ **𝙊𝙒𝙉𝙀𝙍 :** [{user.first_name}](tg://user?id={user.id})\n✧ **𝙅𝙐𝙈𝙇𝘼𝙃 :** {len(dugmeler)} **𝙈𝙊𝘿𝙐𝙇𝙀𝙎**")
                 await event.edit(
                     text,
                     file=logoyins,
@@ -1216,4 +1216,4 @@ with bot:
 
     except BaseException:
         LOGS.info(
-            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @SenjaSupport » TAG @Senja_ex ATAU ADMIN LAINNYA » Info By: Senja-Userbot {BOT_VER}")
+            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @SajikuSupport » TAG @Sajikuuu ATAU ADMIN LAINNYA » Info By: Sajiku-Userbot {BOT_VER}")
