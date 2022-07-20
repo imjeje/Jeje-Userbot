@@ -1,6 +1,6 @@
 #==============×==============#
 #      Created by: Alfa-Ex
-#=========× AyiinXd ×=========#
+#=========× Sajiku ×=========#
 
 FROM ayiinxd/ayiin-userbot:buster
 
