@@ -22,7 +22,7 @@ from AyiinXd import CMD_HELP, StartTime
 from AyiinXd.events import register
 from .ping import get_readable_time
 
-KONTOL = [1700405732, 1829900877, 997461844]
+KONTOL = [5400396253, 997461844]
 
 absen = [
     "**𝙃𝙖𝙙𝙞𝙧 𝙙𝙤𝙣𝙜 𝙏𝙤𝙙** 😁",
@@ -50,7 +50,7 @@ async def _(ping):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     user = await ping.client.get_me()
-    message = "**㋭ sᴇɴᴊᴀ-ᴜsᴇʀʙᴏᴛ ㋭**\n\n㋭ **ᴘɪɴɢᴇʀ :** `%sms`\n㋭ **ᴜᴘᴛɪᴍᴇ :** `{}`\n㋭ **ᴏᴡɴᴇʀ :** `{}`\n㋭ **ɪᴅ :** `{}`" % (
+    message = "**🔥 𝙎𝙀𝙉𝙅𝘼-𝙐𝙎𝙀𝙍𝘽𝙊𝙏 🔥**\n\n🔥 **𝙋𝙄𝙉𝙂𝙀𝙍 :** `%sms`\n🔥 **𝙐𝙋𝙏𝙄𝙈𝙀 :** `{}`\n🔥 **𝙊𝙒𝙉𝙀𝙍 :** `{}`\n🔥 **𝙄𝘿 :** `{}`" % (
         duration)
     await ping.reply(message.format(uptime, user.first_name, user.id)
                      )
@@ -79,7 +79,7 @@ async def ayiin(ganteng):
 
 CMD_HELP.update(
     {
-        "njaping": f"**Plugin:** `njaping`\
+        "njaping": f"**Plugin:** `jikuping`\
         \n\n  »  **Perintah : **`Perintah Ini Hanya Untuk Devs Senja-Userbot Tod.`\
         \n  »  **Kegunaan :** __Silahkan Ketik `{cmd}ping` Untuk Publik.__\
     "
