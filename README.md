@@ -1,4 +1,4 @@
- <h1 align="center">✨ 𝙎𝙖𝙟𝙞𝙠𝙪 𝙐𝙨𝙚𝙧𝙗𝙤𝙩 ✨</h1>
+ <h1 align="center">🔥 𝙎𝙖𝙟𝙞𝙠𝙪 𝙐𝙨𝙚𝙧𝙗𝙤𝙩 🔥</h1>
 
 <a href="https://github.com/sajikuuu/Sajiku-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/inisenja/Senja-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/inisenja/Senja-Userbot)
