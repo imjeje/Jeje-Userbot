@@ -211,7 +211,7 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 # untuk perintah teks costum .alive
 ALIVE_TEKS_CUSTOM = os.environ.get(
     "ALIVE_TEKS_CUSTOM",
-    "𝙃𝘼𝙄,𝙎𝘼𝙔𝘼 𝙋𝙀𝙉𝙂𝙂𝙐𝙉𝘼 𝙎𝘼𝙅𝙄𝙆𝙐-𝙐𝙎𝙀𝙍𝘽𝙊𝙏")
+    "ʜᴀɪ,sᴀʏᴀ ᴘᴇɴɢɢᴜɴᴀ sᴀᴊɪᴋᴜ-ᴜsᴇʀʙᴏᴛ")
 
 # Default .alive name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", "Sajikuuu")
