@@ -1,16 +1,16 @@
 #==============×==============#
 #      Created by: Alfa-Ex
-#=========× Sajiku ×=========#
+#=========× Ayiin ×=========#
 
 FROM ayiinxd/ayiin-userbot:buster
 
-RUN git clone -b Sajiku-Userbot https://github.com/Sajikuuu/Sajiku-Userbot /home/sajikuu/ \
+RUN git clone -b Sajiku-Userbot https://github.com/Sajikuuu/Sajiku-Userbot /home/sajikuuserbot/ \
     && chmod 777 /home/sajikuuserbot \
-    && mkdir /home/sajikuu/bin/
+    && mkdir /home/sajikuuserbot/bin/
 
-COPY ./sample_config.env ./config.env* /home/sajikuu/
+COPY ./sample_config.env ./config.env* /home/sajikuuserbot/
 
-WORKDIR /home/sajikuu/
+WORKDIR /home/sajikuuserbot/
 
 RUN pip install -r requirements.txt
 
