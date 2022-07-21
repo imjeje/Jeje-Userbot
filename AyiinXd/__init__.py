@@ -181,7 +181,7 @@ GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
 GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
-UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/Sajikuuu/Sajiku-Userbot.git")
+UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/Sajikuuu/Sajikuu.git")
 
 # Custom Name Sticker Pack
 S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
@@ -598,10 +598,10 @@ with bot:
         logo = ALIVE_LOGO
         logoyins = random.choice(
                 [
-                    "https://telegra.ph/file/97e7d96e55fb8316574aa.jpg",
-                    "https://telegra.ph/file/97e7d96e55fb8316574aa.jpg",
-                    "https://telegra.ph/file/97e7d96e55fb8316574aa.jpg",
-                    "https://telegra.ph/file/97e7d96e55fb8316574aa.jpg",
+                    "https://telegra.ph/file/5f2b6eb95f949cd9d4439.jpg",
+                    "https://telegra.ph/file/5f2b6eb95f949cd9d4439.jpg",
+                    "https://telegra.ph/file/5f2b6eb95f949cd9d4439.jpg",
+                    "https://telegra.ph/file/5f2b6eb95f949cd9d4439.jpg",
                 ]
         )
         cmd = CMD_HANDLER
