@@ -50,21 +50,21 @@ async def get_readable_time(seconds: int) -> str:
 async def _(ping):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    Ayiin = await edit_or_reply(ping, "**🔥**")
-    await Ayiin.edit("**🔥🔥**")
-    await Ayiin.edit("**🔥🔥🔥**")
-    await Ayiin.edit("**🔥🔥🔥🔥**")
-    await Ayiin.edit("**🔥🔥🔥🔥🔥**")
+    Ayiin = await edit_or_reply(ping, "**✵**")
+    await Ayiin.edit("**✵✵**")
+    await Ayiin.edit("**✵✵✵**")
+    await Ayiin.edit("**✵✵✵✵**")
+    await Ayiin.edit("**✵✵✵✵✵**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     user = await ping.client.get_me()
-    await Ayiin.edit("⚡")
+    await Ayiin.edit("💦")
     sleep(3)
     await Ayiin.edit(
-        f"**🔥 𝙎𝘼𝙅𝙄𝙆𝙐-𝙐𝙎𝙀𝙍𝘽𝙊𝙏 🔥**\n\n"
-        f"🔥 **𝙋𝙄𝙉𝙂𝙀𝙍 :** `%sms`\n"
-        f"🔥 **𝙐𝙋𝙏𝙄𝙈𝙀 :** `{uptime}` \n"
-        f"🔥 **𝙊𝙒𝙉𝙀𝙍 :** [{user.first_name}](tg://user?id={user.id})" % (duration)
+        f"**★ sᴀᴊɪᴋᴜ-ᴜsᴇʀʙᴏᴛ ★**\n\n"
+        f"★ **ᴘɪɴɢᴇʀ :** `%sms`\n"
+        f"★ **ᴜᴘᴛɪᴍᴇ :** `{uptime}` \n"
+        f"★ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})" % (duration)
     )
 
 
