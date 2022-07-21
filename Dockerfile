@@ -4,13 +4,13 @@
 
 FROM ayiinxd/ayiin-userbot:buster
 
-RUN git clone -b Sajiku-Userbot https://github.com/Sajikuuu/Sajiku-Userbot /home/sajikuuserbot/ \
-    && chmod 777 /home/sajikuuserbot \
-    && mkdir /home/sajikuuserbot/bin/
+RUN git clone -b Sajiku-Userbot https://github.com/Sajikuuu/Sajiku-Userbot /home/sajikuu/ \
+    && chmod 777 /home/sajikuu \
+    && mkdir /home/sajikuu/bin/
 
-COPY ./sample_config.env ./config.env* /home/sajikuuserbot/
+COPY ./sample_config.env ./config.env* /home/sajikuu/
 
-WORKDIR /home/sajikuuserbot/
+WORKDIR /home/sajikuu/
 
 RUN pip install -r requirements.txt
 
