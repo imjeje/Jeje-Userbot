@@ -4,7 +4,7 @@
 
 FROM ayiinxd/ayiin-userbot:buster
 
-RUN git clone -b Sajiku-Userbot https://github.com/Sajikuuu/Sajiku-Userbot /home/sajikuu/ \
+RUN git clone -b Sajikuu https://github.com/Sajikuuu/Sajiku-Userbot /home/sajikuu/ \
     && chmod 777 /home/sajikuu \
     && mkdir /home/sajikuu/bin/
 
