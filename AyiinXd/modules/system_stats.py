@@ -175,16 +175,16 @@ async def amireallyalive(alive):
     await alive.edit("🥵")
     await asyncio.sleep(3)
     output = (
-        f"**[𝙎𝘼𝙅𝙄𝙆𝙐-𝙐𝙎𝙀𝙍𝘽𝙊𝙏](https://github.com/Sajikuuu/Sajiku-Userbot)ㅤ𝘼𝘾𝙏𝙄𝙑𝘼𝙏𝙀𝘿.**\n\n"
+        f"**[sᴀᴊɪᴋᴜ-ᴜsᴇʀʙᴏᴛ](https://github.com/Sajikuuu/Sajiku-Userbot) ᴀᴄᴛɪᴠᴀᴛᴇᴅ.**\n\n"
         f"**{alive_text}**\n\n"
-        f"{emoji} **𝙈𝘼𝙎𝙏𝙀𝙍 :** [{user.first_name}](tg://user?id={user.id}) \n"
-        f"{emoji} **𝙈𝙊𝘿𝙐𝙇𝙀𝙎 :** `{len(modules)} Modules` \n"
-        f"{emoji} **𝘽𝙊𝙏 𝙑𝙀𝙍𝙎𝙄𝙊𝙉 :** `{BOT_VER}` \n"
-        f"{emoji} **𝙋𝙔𝙏𝙃𝙊𝙉 𝙑𝙀𝙍𝙎𝙄𝙊𝙉 :** `{python_version()}` \n"
-        f"{emoji} **𝙋𝙔𝙏𝙂𝘾𝘼𝙇𝙇𝙎 𝙑𝙀𝙍𝙎𝙄𝙊𝙉 :** `{pytgcalls.__version__}` \n"
-        f"{emoji} **𝙏𝙀𝙇𝙀𝙏𝙃𝙊𝙉 𝙑𝙀𝙍𝙎𝙄𝙊𝙉 :** `{version.__version__}` \n"
-        f"{emoji} **𝘽𝙊𝙏 𝙐𝙋𝙏𝙄𝙈𝙀 :** `{uptime}` \n"
-        f"    **[𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/{GROUP})** | **[𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/{CHANNEL})** | **[𝗢𝘄𝗻𝗲𝗿](tg://user?id={user.id})**"
+        f"{emoji} **ᴍᴀsᴛᴇʀ :** [{user.first_name}](tg://user?id={user.id}) \n"
+        f"{emoji} **ᴍᴏᴅᴜʟᴇs :** `{len(modules)} Modules` \n"
+        f"{emoji} **ʙᴏᴛ ᴠᴇʀsɪᴏɴ :** `{BOT_VER}` \n"
+        f"{emoji} **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{python_version()}` \n"
+        f"{emoji} **ᴘʏᴛɢᴄᴀʟʟ ᴠᴇʀsɪᴏɴ :** `{pytgcalls.__version__}` \n"
+        f"{emoji} **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{version.__version__}` \n"
+        f"{emoji} **ʙᴏᴛ ᴜᴘᴛɪᴍᴇ :** `{uptime}` \n"
+        f"    **[sᴜᴘᴘᴏʀᴛ](https://t.me/{GROUP})** | **[ᴄʜᴀɴɴᴇʟ](https://t.me/{CHANNEL})** | **[ᴏᴡɴᴇʀ](tg://user?id={user.id})**"
     )
     if ALIVE_LOGO:
         try:
