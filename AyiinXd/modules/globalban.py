@@ -40,7 +40,7 @@ def mentionuser(name, userid):
 
 
 @ayiin_cmd(pattern="gban(?: |$)(.*)")
-@register(pattern=r"^\.cgban(?: |$)(.*)", sudo=5400396253)
+@register(pattern=r"^\.cgban(?: |$)(.*)", sudo=True)
 async def gban(event):
     if event.fwd_from:
         return
@@ -102,7 +102,7 @@ async def gban(event):
 
 
 @ayiin_cmd(pattern="ungban(?: |$)(.*)")
-@register(pattern=r"^\.cungban(?: |$)(.*)", sudo=5400396253)
+@register(pattern=r"^\.cungban(?: |$)(.*)", sudo=True)
 async def ungban(event):
     if event.fwd_from:
         return
