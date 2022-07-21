@@ -223,7 +223,7 @@ ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "✵")
 INLINE_EMOJI = os.environ.get("INLINE_EMOJI", "✵")
 
 # Custom icon HELP
-ICON_HELP = os.environ.get("ICON_HELP", "㋟")
+ICON_HELP = os.environ.get("ICON_HELP", "✵")
 
 # Time & Date - Country and Time Zone
 COUNTRY = str(os.environ.get("COUNTRY", "ID"))
@@ -704,7 +704,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"**🔥 𝙎𝘼𝙅𝙄𝙆𝙐-𝙐𝙎𝙀𝙍𝘽𝙊𝙏 𝙄𝙉𝙇𝙄𝙉𝙀 𝙈𝙀𝙉𝙐 🔥**\n\n⍟ **𝘽𝘼𝙎𝙀 𝙊𝙉 :** {adB.name}\n⍟ **𝘿𝙀𝙋𝙇𝙊𝙔 :** •[{HOSTED_ON}]•\n⍟ **𝙊𝙒𝙉𝙀𝙍** {user.first_name}\n⍟ **𝙅𝙐𝙈𝙇𝘼𝙃 :** {len(dugmeler)} **𝙈𝙊𝘿𝙐𝙇𝙀𝙎**"
+                text = f"**★ sᴀᴊɪᴋᴜ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ★**\n\n✵ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n✵ ** :** •[{HOSTED_ON}]•\n✵ **ᴏᴡɴᴇʀ** {user.first_name}\n✵ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **ᴍᴏᴅᴜʟᴇs**"
                 await event.edit(
                     text,
                     file=logoyins,
@@ -726,7 +726,7 @@ with bot:
                 result = await event.builder.photo(
                     file=logoyins,
                     link_preview=False,
-                    text=f"**🔥 𝙎𝘼𝙅𝙄𝙆𝙐-𝙐𝙎𝙀𝙍𝘽𝙊𝙏 𝙄𝙉𝙇𝙄𝙉𝙀 𝙈𝙀𝙉𝙐 🔥**\n\n⍟ **𝘽𝘼𝙎𝙀 𝙊𝙉 :** {adB.name}\n⍟ **𝘿𝙀𝙋𝙇𝙊𝙔 :** •[{HOSTED_ON}]•\n⍟ **𝙊𝙒𝙉𝙀𝙍 :** {user.first_name}\n⍟ **𝙅𝙐𝙈𝙇𝘼𝙃 :** {len(dugmeler)} **𝙈𝙊𝘿𝙐𝙇𝙀𝙎**",
+                    text=f"*★ sᴀᴊɪᴋᴜ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ★**\n\n✵ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n✵ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n✵ **ᴏᴡɴᴇʀ :** {user.first_name}\n✵ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **ᴍᴏᴅᴜʟᴇs**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
@@ -739,7 +739,7 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text="**Sajiku-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [Sajiku](https://t.me/sajikuuu)\n㋭ **sᴜᴘᴘᴏʀᴛ :** @SajikuSupport\n㋭ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Sajiku-Userbot](https://github.com/Sajikuuu/Sajiku-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**Sajiku-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✵  **ʀᴇᴘᴏ :** [Sajiku](https://t.me/sajikuuu)\n✵ **sᴜᴘᴘᴏʀᴛ :** @SajikuSupport\n✵ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Sajiku-Userbot](https://github.com/Sajikuuu/Sajiku-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
@@ -904,7 +904,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @Sajiku-Userbot
                 # https://t.me/TelethonChat/115200
                 text = (
-                    f"**🔥 𝙎𝘼𝙅𝙄𝙆𝙐-𝙐𝙎𝙀𝙍𝘽𝙊𝙏 𝙄𝙉𝙇𝙄𝙉𝙀 𝙈𝙀𝙉𝙐 🔥**\n\n✧ **𝙊𝙒𝙉𝙀𝙍 :** [{user.first_name}](tg://user?id={user.id})\n✧ **𝙅𝙐𝙈𝙇𝘼𝙃 :** {len(dugmeler)} **𝙈𝙊𝘿𝙐𝙇𝙀𝙎**")
+                    f"**★ sᴀᴊɪᴋᴜ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ★**\n\n✵ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✵ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **ᴍᴏᴅᴜʟᴇs**")
                 await event.edit(
                     text,
                     file=logoyins,
