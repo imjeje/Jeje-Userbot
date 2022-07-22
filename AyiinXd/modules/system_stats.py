@@ -172,10 +172,10 @@ async def bot_ver(event):
 async def amireallyalive(alive):
     user = await alive.client.get_me()
     uptime = await get_readable_time((time.time() - StartTime))
-    await alive.edit("🥵")
+    await alive.edit("🔥")
     await asyncio.sleep(3)
     output = (
-        f"**[sᴀᴊɪᴋᴜ-ᴜsᴇʀʙᴏᴛ](https://github.com/Sajikuuu/Sajiku-Userbot) ᴀᴄᴛɪᴠᴀᴛᴇᴅ.**\n\n"
+        f"**[ᴊᴇᴊᴇ-ᴜsᴇʀʙᴏᴛ](https://github.com/imjeje/Jeje-Userbot) ᴀᴄᴛɪᴠᴀᴛᴇᴅ.**\n\n"
         f"**{alive_text}**\n\n"
         f"{emoji} **ᴍᴀsᴛᴇʀ :** [{user.first_name}](tg://user?id={user.id}) \n"
         f"{emoji} **ᴍᴏᴅᴜʟᴇs :** `{len(modules)} Modules` \n"
