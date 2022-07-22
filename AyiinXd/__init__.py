@@ -132,7 +132,7 @@ BLACKLIST_GCAST = {
 # For Blacklist Group Support
 BLACKLIST_CHAT = os.environ.get("BLACKLIST_CHAT", None)
 if not BLACKLIST_CHAT:
-    BLACKLIST_CHAT = [-1001473548283, -1001654329223]
+    BLACKLIST_CHAT = [-1001473548283, -1001576981939]
 
 # Telegram App KEY and HASH
 API_KEY = int(os.environ.get("API_KEY") or 0)
@@ -166,8 +166,8 @@ CMD_HANDLER = os.environ.get("CMD_HANDLER") or "."
 SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 
 # Support
-GROUP = os.environ.get("GROUP", "SajikuSupport")
-CHANNEL = os.environ.get("CHANNEL", "sajikuuserbot")
+GROUP = os.environ.get("GROUP", "JejeSupport")
+CHANNEL = os.environ.get("CHANNEL", "chjejeni")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -181,7 +181,7 @@ GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
 GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
-UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/Sajikuuu/Sajiku-Userbot.git")
+UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/imjeje/Jeje-Userbot.git")
 
 # Custom Name Sticker Pack
 S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
@@ -211,10 +211,10 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 # untuk perintah teks costum .alive
 ALIVE_TEKS_CUSTOM = os.environ.get(
     "ALIVE_TEKS_CUSTOM",
-    "ʜᴀɪ,sᴀʏᴀ ᴘᴇɴɢɢᴜɴᴀ sᴀᴊɪᴋᴜ-ᴜsᴇʀʙᴏᴛ")
+    "ʜᴀɪ,sᴀʏᴀ ᴘᴇɴɢɢᴜɴᴀ ᴊᴇᴊᴇ-ᴜsᴇʀʙᴏᴛ")
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "Sajikuuu")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "base64de")
 
 # Custom Emoji Alive
 ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "✵")
@@ -243,10 +243,10 @@ BOT_VER = os.environ.get("BOT_VER", "3.4.5")
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://telegra.ph/file/0e515b76615060daee132.jpg")
+              or "https://telegra.ph/file/2949ddc53923177265160.jpg")
 
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://telegra.ph/file/0e515b76615060daee132.jpg")
+              or "https://telegra.ph/file/2949ddc53923177265160.jpg")
 
 # Picture For VCPLUGIN
 PLAY_PIC = (os.environ.get("PLAY_PIC")
@@ -306,7 +306,7 @@ while 0 < 6:
 del _BLACKLIST
 
 ch = str(b64decode("QHNhamlrdXVzZXJib3Q=="))[2:17]
-gc = str(b64decode("QHNhamlrdXN1cHBvcnQ="))[2:15]
+gc = str(b64decode("QGplamVzdXBwb3J0="))[2:13]
 
 while 0 < 6:
     _WHITELIST = get(
@@ -500,7 +500,7 @@ else:
 
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"**Sajiku-UserBot v`{BOT_VER}` is back up and running!**\n\n"
+        f"**Jeje-UserBot v`{BOT_VER}` is back up and running!**\n\n"
         f"**Telethon:** `{vsc}`\n"
         f"**Python:** `{python_version()}`\n"
     )
@@ -598,10 +598,10 @@ with bot:
         logo = ALIVE_LOGO
         logoyins = random.choice(
                 [
-                    "https://telegra.ph/file/5f2b6eb95f949cd9d4439.jpg",
-                    "https://telegra.ph/file/5f2b6eb95f949cd9d4439.jpg",
-                    "https://telegra.ph/file/5f2b6eb95f949cd9d4439.jpg",
-                    "https://telegra.ph/file/5f2b6eb95f949cd9d4439.jpg",
+                    "https://telegra.ph/file/7feffb3598abb1e8d119f.jpg",
+                    "https://telegra.ph/file/7feffb3598abb1e8d119f.jpg",
+                    "https://telegra.ph/file/7feffb3598abb1e8d119f.jpg",
+                    "https://telegra.ph/file/7feffb3598abb1e8d119f.jpg",
                 ]
         )
         cmd = CMD_HANDLER
@@ -704,7 +704,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"**★ sᴀᴊɪᴋᴜ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ★**\n\n✵ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n✵ ** :** •[{HOSTED_ON}]•\n✵ **ᴏᴡɴᴇʀ** {user.first_name}\n✵ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **ᴍᴏᴅᴜʟᴇs**"
+                text = f"**★ ᴊᴇᴊᴇ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ★**\n\n✵ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n✵ ** :** •[{HOSTED_ON}]•\n✵ **ᴏᴡɴᴇʀ** {user.first_name}\n✵ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **ᴍᴏᴅᴜʟᴇs**"
                 await event.edit(
                     text,
                     file=logoyins,
@@ -721,33 +721,33 @@ with bot:
             result = None
             query = event.text
             if event.query.user_id == uid and query.startswith(
-                    "@SajikuSupport"):
+                    "@JejeSupport"):
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = await event.builder.photo(
                     file=logoyins,
                     link_preview=False,
-                    text=f"*★ sᴀᴊɪᴋᴜ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ★**\n\n✵ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n✵ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n✵ **ᴏᴡɴᴇʀ :** {user.first_name}\n✵ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **ᴍᴏᴅᴜʟᴇs**",
+                    text=f"*★ ᴊᴇᴊᴇ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ★**\n\n✵ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n✵ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n✵ **ᴏᴡɴᴇʀ :** {user.first_name}\n✵ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **ᴍᴏᴅᴜʟᴇs**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository Sajiku - Userbot",
-                    url="https://t.me/SajikuSupport",
+                    description="Repository Jeje - Userbot",
+                    url="https://t.me/JejeSupport",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text="**Sajiku-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✵  **ʀᴇᴘᴏ :** [Sajiku](https://t.me/sajikuuu)\n✵ **sᴜᴘᴘᴏʀᴛ :** @SajikuSupport\n✵ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Sajiku-Userbot](https://github.com/Sajikuuu/Sajiku-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**Jeje-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✵  **ʀᴇᴘᴏ :** [Jeje](https://t.me/base64de)\n✵ **sᴜᴘᴘᴏʀᴛ :** @JejeSupport\n✵ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Jeje-Userbot](https://github.com/imjeje/Jeje-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/SajikuSupport"),
+                                "https://t.me/JejeSupport"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/Sajikuuu/Sajiku-Userbot"),
+                                "https://github.com/imjeje/Jeje-Userbot"),
                         ],
                     ],
                     link_preview=False,
@@ -755,8 +755,8 @@ with bot:
             elif query.startswith("string"):
                 result = builder.article(
                     title="String",
-                    description="String Sajiku - Userbot",
-                    url="https://t.me/SajikuSupport",
+                    description="String Jeje - Userbot",
+                    url="https://t.me/JejeSupport",
                     thumb=InputWebDocument(
                         logoyins,
                         0,
@@ -773,7 +773,7 @@ with bot:
                                 url="https://repl.it/@AyiinXd/AyiinString?lite=1&outputonly=1"),
                         ],
                         [
-                            custom.Button.url("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/SajikuSupport"),
+                            custom.Button.url("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/JejeSupport"),
                         ],
                     ],
                     link_preview=False,
@@ -794,8 +794,8 @@ with bot:
                 buttons.append([custom.Button.inline("ʙᴀᴄᴋ", data="yins_close")])
                 result = builder.article(
                     title="Lang",
-                    description="Lang Sajiku - Userbot",
-                    url="https://t.me/SajikuSupport",
+                    description="Lang Jeje - Userbot",
+                    url="https://t.me/JejeSupport",
                     thumb=InputWebDocument(
                         logoyins,
                         0,
@@ -839,23 +839,23 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="🔥 𝙎𝘼𝙅𝙄𝙆𝙐-𝙐𝙎𝙀𝙍𝘽𝙊𝙏 🔥",
-                    description="Sajiku - Userbot | Telethon",
-                    url="https://t.me/sajikuuserbot",
+                    title="✵ ᴊᴇᴊᴇ-ᴜsᴇʀʙᴏᴛ ✵",
+                    description="Jeje - Userbot | Telethon",
+                    url="https://t.me/chjejeni",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**Sajiku-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @sajikuuserbot\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**Jeje-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @chjejeni\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/SajikuSupport"),
+                                "https://t.me/JejeSupport"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/Sajikuuu/Sajiku-Userbot"),
+                                "https://github.com/imjeje/Jeje-Userbot"),
                         ],
                     ],
                     link_preview=False,
@@ -901,10 +901,10 @@ with bot:
             )
         )
         async def gback_handler(event):
-            if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @Sajiku-Userbot
+            if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @Jeje-Userbot
                 # https://t.me/TelethonChat/115200
                 text = (
-                    f"**★ sᴀᴊɪᴋᴜ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ★**\n\n✵ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✵ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **ᴍᴏᴅᴜʟᴇs**")
+                    f"**★ ᴊᴇᴊᴇ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ★**\n\n✵ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✵ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **ᴍᴏᴅᴜʟᴇs**")
                 await event.edit(
                     text,
                     file=logoyins,
@@ -1216,4 +1216,4 @@ with bot:
 
     except BaseException:
         LOGS.info(
-            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @SajikuSupport » TAG @Sajikuuu ATAU ADMIN LAINNYA » Info By: Sajiku-Userbot {BOT_VER}")
+            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @JejeSupport » TAG @base64de ATAU ADMIN LAINNYA » Info By: Jeje-Userbot {BOT_VER}")
