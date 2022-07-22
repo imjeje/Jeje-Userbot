@@ -50,7 +50,7 @@ async def _(ping):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     user = await ping.client.get_me()
-    message = "**★ sᴀᴊɪᴋᴜ-ᴜsᴇʀʙᴏᴛ ★**\n\n★ **ᴘɪɴɢᴇʀ :** `%sms`\n★ **ᴜᴘᴛɪᴍᴇ :** `{}`\n★ **ᴏᴡɴᴇʀ :** `{}`\n★ **ɪᴅ :** `{}`" % (
+    message = "**★ ᴊᴇᴊᴇ-ᴜsᴇʀʙᴏᴛ ★**\n\n★ **ᴘɪɴɢᴇʀ :** `%sms`\n★ **ᴜᴘᴛɪᴍᴇ :** `{}`\n★ **ᴏᴡɴᴇʀ :** `{}`\n★ **ɪᴅ :** `{}`" % (
         duration)
     await ping.reply(message.format(uptime, user.first_name, user.id)
                      )
@@ -79,7 +79,7 @@ async def ayiin(ganteng):
 
 CMD_HELP.update(
     {
-        "njaping": f"**Plugin:** `jikuping`\
+        "njaping": f"**Plugin:** `jejeping`\
         \n\n  »  **Perintah : **`Perintah Ini Hanya Untuk Devs Senja-Userbot Tod.`\
         \n  »  **Kegunaan :** __Silahkan Ketik `{cmd}ping` Untuk Publik.__\
     "
