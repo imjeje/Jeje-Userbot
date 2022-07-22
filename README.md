@@ -1,18 +1,18 @@
- <h1 align="center">🔥 𝙎𝙖𝙟𝙞𝙠𝙪 𝙐𝙨𝙚𝙧𝙗𝙤𝙩 🔥</h1>
+ <h1 align="center">✵ 𝙅𝙚𝙟𝙚 𝙐𝙨𝙚𝙧𝙗𝙤𝙩 ✵</h1>
 
-<a href="https://github.com/sajikuuu/Sajiku-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/inisenja/Senja-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/inisenja/Senja-Userbot)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/inisenja/Senja-Userbot/graphs/commit-activity)
-[![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/inisenja/Senja-Userbot/dashboard)
-[![GitHub Forks](https://img.shields.io/github/forks/sajikuuu/Sajiku-Userbot?&logo=github)](https://github.com/inisenja/Senja-Userbot/fork)
-[![GitHub Stars](https://img.shields.io/github/stars/sajikuuu/Sajiku-Userbot?&logo=github)](https://github.com/inisenja/Senja-Userbot/stargazers)
+<a href="https://github.com/imjeje/Jeeje-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/imjeje/Jeeje-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/imjeje/Jeeje-Userbot)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/imjeje/Jeeje-Userbot/graphs/commit-activity)
+[![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/imjeje/Jeeje-Userbot/dashboard)
+[![GitHub Forks](https://img.shields.io/github/forks/imjeje/Jeeje-Userbot?&logo=github)](https://github.com/imjeje/Jeeje-Userbot/fork)
+[![GitHub Stars](https://img.shields.io/github/stars/imjeje/Jeeje-Userbot?&logo=github)](https://github.com/imjeje/Jeeje-Userbot/stargazers)
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/0e515b76615060daee132.jpg">
+  <img src="https://telegra.ph/file/2949ddc53923177265160.jpg">
 </p>
 
-👩‍💻 Sajiku-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
+👩‍💻 Jeje-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
 
 Berbasis [Paperplane](https://github.com/RaphielGang/Telegram-UserBot) dan [ProjectBish](https://github.com/adekmaulana/ProjectBish) userbot.
 Saya membuat repository ini untuk memilih dan menambahkan beberapa modul yang saya butuhkan dengan banyak perubahan, fitur dan modul.
@@ -47,9 +47,9 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 ### Tutorial Deploy di VPS
 
 
- • `git clone https://github.com/sajikuuu/Sajiku-Userbot`
+ • `git clone https://github.com/imjeje/Jeeje-Userbot`
 
- • `cd Sajiku-Userbot`
+ • `cd Jeje-Userbot`
 
  • `pip3 install -U -r requirements.txt`
 
@@ -61,7 +61,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
   - ketik ctrl + S
   - ctrl + X
 
- • `screen -S Sajiku-Userbot`
+ • `screen -S Jeje-Userbot`
 
  • `bash start`
 
@@ -71,7 +71,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 <summary><b>🔗 Deploy To Heroku</b></summary>
 <br>
 
-<p><a href="https://heroku.com/deploy?template=https://github.com/sajikuuu/Sajiku-Userbot"><img src="https://img.shields.io/badge/BUAT DI-HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" /></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/imjeje/Jeeje-Userbot"><img src="https://img.shields.io/badge/BUAT DI-HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" /></a></p>
 
 </details>
 
@@ -85,7 +85,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 ## Updates & Support
 
-Follow Channel [@sajikuuserbot](https://t.me/sajikuuserbot) untuk info Update bot dan Gabung Group [@SajikuSupport](https://t.me/SajikuSupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Sajiku-Userbot.
+Follow Channel [@chjejeni](https://t.me/chjejeni) untuk info Update bot dan Gabung Group [@JejeSupport](https://t.me/JejeSupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Sajiku-Userbot.
 
 #### Special Thanks To [Everyone](https://github.com/mrismanaziz/Man-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
 -  [AdekMaulana](https://github.com/adekmaulana) : ProjectBish
